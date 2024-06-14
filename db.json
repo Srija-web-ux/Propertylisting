@@ -2,7 +2,7 @@
   "properties": [
     {
       "id": "1",
-      "image": "property1.jpg",
+      "image": "https://cdn.pixabay.com/photo/2017/07/08/02/16/house-2483336_640.jpg",
       "bedrooms": 3,
       "address": "110A Crabtree Lane, London, HP3 9EJ",
       "price": 500000,
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "image": "property2.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPc9rNTbWGGxa5LhGl18wmk0Ioa2qJZ85sg&s",
       "bedrooms": 4,
       "address": "98 Crabtree Lane, London, HP3 9EJ",
       "price": 400000,
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "image": "property3.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSiIdzHHLECfryhmrKVDZQPC_hC57mYra7Lg&s",
       "bedrooms": 4,
       "address": "23 Kenilworth Lane, London, HP2 4EJ",
       "price": 300000,
@@ -26,7 +26,7 @@
     },
     {
       "id": "4",
-      "image": "property4.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCj68YNwOWGB3iWJX-L-9BU7HlIHPnpfzsg&s",
       "bedrooms": 4,
       "address": "28 Kenilworth Lane, London, HP2 4EJ",
       "price": 600000,
