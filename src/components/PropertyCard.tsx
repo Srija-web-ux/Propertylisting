@@ -21,8 +21,8 @@ interface PropertyCardProps {
 const StyledCard = styled(Card)(({ theme }) => ({
   maxWidth: 800,
   margin: 'auto',
-  backgroundColor: '#ffffff', // Light background color
-  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.5)', // Soft shadow
+  backgroundColor: '#ffffff', 
+  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.5)', 
   borderRadius: 8,
   transition: 'transform 0.2s',
   '&:hover': {

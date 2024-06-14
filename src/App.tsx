@@ -5,16 +5,16 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import PropertyList from './components/PropertyList';
 
-import backgroundImage from './background.jpg'; // Import the background image
+import backgroundImage from './background.jpg'; // background image
 import logo from './housefulgroup_logo.jpg';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Adjust primary color as needed
+      main: '#1976d2', 
     },
   },
   typography: {
-    fontFamily: 'Arial, sans-serif', // Change default font family
+    fontFamily: 'calibri, sans-serif', 
   },
 });
 
@@ -25,13 +25,13 @@ const App: React.FC = () => {
       <div
         className="App"
         style={{
-          backgroundImage: `url(${backgroundImage})`, // Apply background image dynamically
+          backgroundImage: `url(${backgroundImage})`, 
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           minHeight: '100vh',
           display: 'flex',
-          flexDirection: 'column', // Ensures header is at the top
-          backgroundColor: 'rgba(0, 0, 0, 0.5)', // Transparent background color
+          flexDirection: 'column', 
+          backgroundColor: 'rgba(0, 0, 0, 0.5)', 
         }}
       >
                <header style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px 0', boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

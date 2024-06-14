@@ -5,19 +5,19 @@ import { Property } from '../models/Property';
 
 const mockProperty: Property = {
   id: 1,
-  image: 'image1.jpg',
-  bedrooms: 3,
-  address: '123 Main St, Anytown, AN 12345',
-  price: 250000,
-  status: 'active',
+  image: 'https://cdn.pixabay.com/photo/2017/07/08/02/16/house-2483336_640.jpg',
+  "bedrooms": 3,
+  "address": "98 Crabtree Lane, London, HP3 9EJ",
+  "price": 500000,
+  "status": "active"
 };
 
 test('renders property card with correct information', () => {
   const { getByText, getByAltText } = render(<PropertyCard property={mockProperty} onExpire={() => {}} />);
   
-  expect(getByText('123 Main St, Anytown, AN 12345')).toBeInTheDocument();
+  expect(getByText('98 Crabtree Lane, London, HP3 9EJ')).toBeInTheDocument();
   expect(getByText('3 bedrooms')).toBeInTheDocument();
-  expect(getByText('250,000')).toBeInTheDocument();
+  expect(getByText('500,000')).toBeInTheDocument();
   expect(getByAltText('Property')).toBeInTheDocument();
   expect(getByText('Status: active')).toBeInTheDocument();
 });
