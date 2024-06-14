@@ -1,0 +1,36 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "image": "property1.jpg",
+      "bedrooms": 3,
+      "address": "110A Crabtree Lane, London, HP3 9EJ",
+      "price": 500000,
+      "status": "expired"
+    },
+    {
+      "id": "2",
+      "image": "property2.jpg",
+      "bedrooms": 4,
+      "address": "98 Crabtree Lane, London, HP3 9EJ",
+      "price": 400000,
+      "status": "expired"
+    },
+    {
+      "id": "3",
+      "image": "property3.jpg",
+      "bedrooms": 4,
+      "address": "23 Kenilworth Lane, London, HP2 4EJ",
+      "price": 300000,
+      "status": "expired"
+    },
+    {
+      "id": "4",
+      "image": "property4.jpg",
+      "bedrooms": 4,
+      "address": "28 Kenilworth Lane, London, HP2 4EJ",
+      "price": 600000,
+      "status": "active"
+    }
+  ]
+}
